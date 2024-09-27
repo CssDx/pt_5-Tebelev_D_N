@@ -1,0 +1,29 @@
+
+p.text-ali {
+    text-align: justify;
+}
+
+
+.img_start + p {
+    width: 200px;
+    text-align: center;
+}
+
+.main {
+    background-image: url("../movies/background.png");
+    background-repeat: no-repeat;
+}
+
+.start_info {
+    text-align: end;
+}
+
+.row_info {
+    position: absolute;
+    left: 50%;
+    font-style: italic;
+}
+
+.row_start {
+    font-style: italic;
+}
