@@ -27,3 +27,24 @@ p.text-ali {
 .row_start {
     font-style: italic;
 }
+
+button {
+    background-color: #e1f0ff; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a75ff; 
+}
+
+img.invise {
+    width: 300px; 
+    height: auto; 
+    display: none; 
+    margin-top: 20px;
+}
