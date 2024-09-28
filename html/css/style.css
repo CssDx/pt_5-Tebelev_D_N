@@ -1,0 +1,113 @@
+
+p.text-ali {
+    text-align: justify;
+}
+
+
+.img_start + p {
+    width: 200px;
+    text-align: center;
+}
+
+.main {
+    background-image: url("../movies/background.png");
+    background-repeat: no-repeat;
+}
+h2.money {
+   color: red;
+   opacity: 0.1;
+}
+
+h2.start_info_h2 h3.start_info_h3{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.row_info {
+    position: absolute;
+    left: 50%;
+    font-style: italic;
+}
+
+.row_start {
+    font-style: italic;
+}
+
+button.show {
+    background-color: #e1f0ff; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+}
+
+button.show:hover {
+    background-color: #1a75ff; 
+}
+
+.invise { 
+    position: absolute;
+    top: 0px; 
+    right: 0px;
+    width: 150px;
+    height: auto;
+}
+
+input, button.registr {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #300627;
+    border-radius: 5px;
+    font-size: 10x;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+input:focus, button.registr {
+    border-color: #6a11cb; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+button.registr {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    height: 100px;
+    text-align: center;
+    z-index: 1000;
+}
+
+
